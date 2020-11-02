@@ -1,0 +1,22 @@
+#test-cases
+ips_to_hosts={
+        '142.250.72.238': 'google.com',
+        '1.0.0.1': 'one.one.one.one',
+        '13.91.40.166': 'logmein.com'}
+known_hosts={
+        'one.one.one.one': ['1.1.1.1', '1.0.0.1'],
+        'logmein.com': ['52.178.114.226', '40.71.199.117']}
+#Case2
+ips_to_hosts={
+        '142.250.72.238': 'google.com',
+        '1.0.0.1': 'one.one.one.one',
+        '13.91.40.166': 'logmein.com'}
+known_hosts= None
+#Case3
+ips_to_hosts={
+        '142.250.72.238': 'google.com',
+        '1.0.0.1': 'one.one.one.one',
+        '13.91.40.166': 'logmein.com'}
+    known_hosts={
+        'one.one.one.one': ['1.1.1.1', '1.0.0.1'],
+        'logmein.com': ['52.178.114.226', '40.71.199.117','142.250.72.238']}
